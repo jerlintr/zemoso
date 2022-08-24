@@ -1,0 +1,41 @@
+#logo {
+
+  width: 100%;
+}
+
+.my_nav_bar {
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  padding-left: 200px;
+  background-color: white;
+}
+
+li:hover {
+  background-color: rgb(10, 10, 10);
+}
+
+.navbar-nav {
+  padding-left: 120px;
+}
+
+#help {
+  font-size: 40px;
+}
+
+#rocket {
+  height: 50%;
+  width: 65%;
+}
+
+.column {
+  float: left;
+  width:33.33%;
+  text-align: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
